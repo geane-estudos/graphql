@@ -66,6 +66,8 @@ Essas definições do resolver são:
 - https://www.hostinger.com.br/blog/graphql-vs-rest-qual-o-melhor-para-o-desenvolvimento-de-api/
 - https://www.apollographql.com/docs/apollo-server/data/resolvers/
 
-#### Tutorial:
+##### Tutorial:
 - https://www.youtube.com/watch?v=5199E50O7SI
 
+##### Para abrir a porta 400:
+- nodemon index
