@@ -20,6 +20,7 @@ O modelo de dados no GraphQL é representado em tipos, que são fortemente tipad
 
 Aqui está um pequeno exemplo de esquema que define dois tipos de objeto: Book e Author:
 ![Alt text](schema.png)
+
 Um esquema define uma coleção de tipos e os relacionamentos entre esses tipos. No esquema de exemplo acima, o tipo Book pode ter um associado Author e um Author pode ter uma lista de books.
 
 ### 3. Queries e Mutations
@@ -42,6 +43,7 @@ Para definir um input type, use a palavra-chave input seguida do nome e chaves (
 
 Aqui está um exemplo de input type do schema Airlock :
 ![Alt text](input.png)
+
 Note que a palavra-chave é input e não type. Imagine que ele seja um formulário em uma página em que você precisa preencher alguns dados e quais os tipos de informações necessários para criar um perfil de usuário.
 
 ### 5.Resolvers
@@ -50,6 +52,7 @@ Como o próprio nome sugere, a função resolver dá um conjunto específico de 
 #### Sintaxe Básica
 Digamos que nosso servidor defina o seguinte schema:
 ![Alt text](query.png)
+
 Queremos definir resolvers para os campos numberSix e numberSeven da query root type para que eles sempre retornem 6 e 7 quando forem consultados.
 
 Essas definições do resolver são:
